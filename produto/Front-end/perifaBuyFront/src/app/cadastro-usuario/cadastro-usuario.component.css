@@ -1,0 +1,31 @@
+#img-bg{
+    background-image: url('https://i.imgur.com/ICIEWiW.jpg');
+
+    min-height: 850px;
+
+    background-image: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#img-logo{
+    background-image: url('https://i.imgur.com/VzPaEF9.png?1');
+    position:static;
+	left: 90px;
+    top: 70px;
+    max-width: 10px;
+    max-height: 10px;
+}
+
+
+.pd-10{
+    padding: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 20px;
+
+}
+
+.mr-60{
+    margin: 60px;
+}

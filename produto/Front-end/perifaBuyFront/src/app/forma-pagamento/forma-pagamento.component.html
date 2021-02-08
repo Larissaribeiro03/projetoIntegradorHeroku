@@ -1,0 +1,180 @@
+<!--Dayane Imagem forma de pagamento cifrão-->
+<div class="corPerifa">
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-">
+          <img
+            class="cifrao_imagem"
+            src="../../assets/img/forma-pagamento.png"
+            alt="cifra 1"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- <div class="jumbotron jumbotron-fluid bg-day border">
+  <div class="container d-flex justify-content-center">
+    <h1 class="display-4 text-right">ESTILZAR FUNDO</h1>
+  </div>
+</div> -->
+
+<div class="container ml-day justify-content-center">
+  <!--Dayane Imagem forma de pagamento cifrão-->
+  <form>
+    <!--Puxar automatico cliente e seus dados cadastrados-->
+
+    <div class="form-group col-md-6 d-flex justify-content-center">
+      <label class="mx-3" for="name">Cliente Cadastrado</label>
+      <h4>: {{nome}}</h4>
+    </div>
+    <div class="form-group col-md-6 d-flex justify-content-center">
+      <label class="mx-3" for="numero_pedido">Numero do Pedido</label>
+      <h4>: 0001</h4>
+    </div>
+    <div class="form-group col-md-6 d-flex justify-content-center">
+      <label class="mx-3" for="total_compra">Total da Compra</label>
+      <h4>: R$ 10,99</h4>
+    </div>
+  </form>
+</div>
+<!--Puxar automatico cliente e seus dados cadastrados final-->
+<!--Colocar meio do texto com as duas riscas -->
+<hr />
+<p class="text-center fs-size">Nome e endereço de entrega do pedido</p>
+<hr />
+<!--Colocar meio do texto com as duas riscas final -->
+<div class="container ml-day justify-content-center">
+  <form>
+    <!--Preenchimento de dados para entrega-->
+    <div class="form-group col-md-6 d-flex justify-content-center">
+      <label class="col-md-3" for="total_compra"> Nome </label>
+      <input
+        type="nome"
+        class="form-control"
+        id="exampleInputtotal_nome1"
+        aria-describedby="nomeHelp"
+        placeholder="Nome para ENTREGA"
+      />
+    </div>
+    <div class="form-group col-md-6 d-flex justify-content-center">
+      <label class="col-md-3" for="endereco">Endereço</label>
+      <input
+        type="endereco"
+        class="form-control"
+        id="exampleInputendereco1"
+        aria-describedby="enderecoHelp"
+        placeholder="Digite o ENDEREÇO da entrega"
+      />
+    </div>
+    <div class="form-group col-md-6 d-flex justify-content-center">
+      <label class="col-md-3" for="cidade">Cidade</label>
+      <input
+        type="cidade"
+        class="form-control"
+        id="exampleInputcidade"
+        aria-describedby="cidadeHelp"
+        placeholder="Digite a CIDADE"
+      />
+    </div>
+    <div class="form-group col-md-6 d-flex justify-content-center">
+      <label class="col-md-3" for="estado">Estado</label>
+      <input
+        type="estado"
+        class="form-control"
+        id="exampleInputestado1"
+        aria-describedby="estadoHelp"
+        placeholder="Digite o ESTADO"
+      />
+    </div>
+    <div class="form-group col-md-6 d-flex justify-content-center">
+      <label class="col-md-3" for="cep">CEP</label>
+      <input
+        type="cep"
+        class="form-control"
+        id="exampleInputtotal_cep"
+        aria-describedby="cepHelp"
+        placeholder="Digite seu CEP"
+      />
+    </div>
+    <div class="form-group col-md-6 d-flex justify-content-center">
+      <label class="col-md-3" for="exampleFormControlSelect1"
+        >Forma de pagamento</label
+      >
+      <select class="form-control" id="exampleFormControlSelect1">
+        <option>Selecione</option>
+        <option>Crédito à vista</option>
+        <option>Débito</option>
+        <option>Dinheiro</option>
+      </select>
+    </div>
+  </form>
+  <!--Preenchimento de dados para entrega final-->
+</div>
+
+
+<!--Botao VOLTAR E CONFIRMAR -->
+<div class="d-flex justify-content-end">
+  <div class="p-2">
+  <i class="fa fa-arrow-circle-left mr-5" aria-hidden="true" routerLink="/carrinho">Voltar</i>
+  <label>
+    <i class="fa fa-check ml-100" aria-hidden="true" data-toggle="modal" data-target="#modalExemplo">Confirmar</i
+    ></label
+  ></div>
+</div>
+
+
+
+
+
+<!--Botao VOLTAR E CONFIRMAR -->
+
+<!--Colocar um alerta, com as informações
+    Pagamento APROVADO:
+    Motoboy saindo em minutos para a entrega!-->
+<!-- Botão para acionar modal -->
+
+<!-- Modal -->
+<div
+  class="modal fade"
+  id="modalExemplo"
+  tabindex="-1"
+  role="dialog"
+  aria-labelledby="exampleModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title text-success" id="exampleModalLabel">
+          COMPRA REALIZADA COM SUCESSO
+        </h5>
+        <button
+          type="button"
+          class="close"
+          data-dismiss="modal"
+          aria-label="Fechar"
+        >
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>MOTOBOY SAINDO PARA ENTREGA EM 15 MINUTOS</p>
+        <hr />
+        <img
+          src="https://i.imgur.com/7Hxadey.jpg"
+          width="100px"
+          alt="cifra 1"
+        />
+        <hr />
+      </div>
+      <div class="modal-footer">
+        <a routerLink="/inicio">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Ok</button></a>
+      </div>
+    </div>
+  </div>
+</div>
+

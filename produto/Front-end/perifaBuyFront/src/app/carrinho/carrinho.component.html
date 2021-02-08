@@ -1,0 +1,135 @@
+  <!--Carrinho banner-->
+      <div class="corPerifa">
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container">
+            <div class="row d-flex justify-content-center">
+              <div class="col-md-8">
+                <img
+                  class="meuCarrinho_imagem"
+                  src="../../assets/img/carrinho (2).png"
+                  alt="meuCarrinho"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!--Fim banner carrinho-->
+
+<!--Carrinho-->
+<div class="container-fluid">
+
+
+  <!--Listagem de Produtos-->
+  <div class="table-responsive-sm ">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>
+            Seus produtos:
+          </th>
+          <th>
+            <div class="centralizar">
+              Quantidade
+            </div>
+          </th>
+          <th>
+            <div class="centralizar">
+              Valor
+            </div>
+          </th>
+          <th>
+            <div class="centralizar">
+              Remover
+            </div>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+
+
+        <tr class="">
+          <td class="align-middle">
+            <div class="flex-container card p-0">
+              <div>
+                <img class="wh-150 p-05"
+                  src="../../assets/img/farmacia/cimegripe.jpg"
+                  alt="Imagem de capa do card">
+              </div>
+              <div class="p-05">
+                <a href="#">
+                  FARMÁCIA DA MARCIA
+                </a>
+                <h6 class="">
+                  Cimegripe
+                </h6>
+                <p class="justify wh-650">
+                  Indicado para gripes e resfriados.
+                </p>
+              </div>
+            </div>
+          </td>
+          <td class="align-middle">
+            <div class="centralizar">
+              <nav aria-label="Navegação de página exemplo">
+                <ul class="pagination ">
+                  <li class="page-item ">
+                    <a class="botaoMenos" href="#" aria-label="Anterior">
+                      <span class="sr-only">Anterior</span>
+                    </a>
+                  </li>
+
+                  <!--ESCOLHA DA QUANTIDADE DE PRODUTOS-->
+                  <div class="form-row align-items-center">
+                    <div class="col-auto my-1">
+                      <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Preferência</label>
+                      <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                      
+                        <option value="1">1</option>
+                        
+                      </select>
+                    </div>
+                  </div>
+                  <!--/ESCOLHA DA QUANTIDADE DE PRODUTOS-->
+                    
+                  <li class="page-item">
+                    <a class="botaoMais" href="#" aria-label="Próximo">
+                      <span class="sr-only">Próximo</span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </td>
+          <td class="align-middle">
+            <div class="centralizar">
+              R$ 10,99
+            </div>
+          </td>
+          <td class=" align-middle ">
+            <a href="">
+              <i class="fa fa-trash-o text-dark fs-16 centralizar" aria-hidden="true"></i>
+            </a>
+          </td>
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
+  <!--FIM Listagem de Produtos-->
+
+
+  <!--BOTÕES-->
+  <div class="d-flex justify-content-between">
+    <div class="p-2">
+      <a routerLink="/inicio" class="btn btn-info active" role="button" aria-pressed="true">Continuar Comprando</a>
+    </div>
+
+    <div class="p-2">
+      <a routerLink="/forma-pagamento" class="btn btn-success active" role="button" aria-pressed="true">Finalizar compra</a>
+    </div>
+  </div>
+  <!--BOTÕES-->
+
+</div>

@@ -1,0 +1,41 @@
+.visivel {
+    display: none;
+}
+
+
+.fs{
+    font-size: 16pt;
+}
+/* Usando a classe abaixo para definir como o bloco das redes sociais serão exibidos */
+ul.social-network li{
+    display: inline;
+    margin: 0;
+    padding: 5px;
+}
+/* usando a classe abaixo para definir como os ícones das redes sociais serão exibidos */
+.fa{
+    font-size: 50pt;
+    color: black;
+    margin: 30px
+}
+#nav{
+    background-color: #FAE977;
+  }
+  .form-pesquisa{
+    background-color: #FAE977;
+  }
+
+.mt-10{
+    
+    margin-top: 50px;
+    margin-block-end: 0px;
+}
+
+.fs-24{
+    font-size: 24pt;
+}
+
+.fs-16{
+    font-size: 16pt;
+    text-align: justify;
+}

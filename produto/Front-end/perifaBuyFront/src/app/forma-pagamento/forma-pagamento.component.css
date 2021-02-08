@@ -1,0 +1,42 @@
+
+#img-logo{
+    background-image: url('https://i.imgur.com/Kz17cuT.jpg');
+    position:static;
+	left: 90px;
+    top: 70px;
+    max-width: 10px;
+    max-height: 10px;
+}
+.fs-size{
+    font-size: 30pt;
+
+}
+#nav{
+    background-color: #FAE977;
+  }
+  .form-pesquisa{
+    background-color: #FAE977;
+  }
+  .fa
+  {
+    font-size: 35pt;
+    color: black;
+  }
+  .ml-70{
+      margin-left: 70%;
+  }
+  .fs{
+    font-size: 16pt;
+}
+/* Usando a classe abaixo para definir como o bloco das redes sociais serão exibidos */
+ul.social-network li{
+    display: inline;
+    margin: 0;
+    padding: 5px;
+}
+.bg-day{
+  background-color:  #FAE977;
+}
+.ml-day{
+  margin-left: 30%;
+}

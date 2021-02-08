@@ -1,0 +1,78 @@
+
+
+.flex-container {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.justify{
+    text-align: justify;
+}
+
+.centralizar{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.p-05{
+    padding: 5px;
+}
+
+.p-0{
+    padding: 0px;
+}
+
+.wh-150{
+    width: 150px;
+    height: 150px;
+}
+
+.wh-650{
+    max-width:600px;
+    min-width: 200px;
+    max-height: 100px;
+}
+
+.BUTTON_WWG {
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    height: 0;
+    line-height: 0;
+    color: #FFFFFF;
+    font-family: Arial;
+    width: 60px;
+    font-size: 15px;
+    font-weight: 100;
+    padding: 15px;
+    background-color: #000000;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+
+
+        .fs-16{
+            font-size: 16pt;
+        }
+
+        .fs-150{
+            font-size: 150pt;
+        }
+        
+        .fs-size{
+            font-size: 50pt;
+        }
+
+        .fc{
+            color: rgb(16, 184, 16); /*cor do botão de adicionar*/
+        }
+        
+        .fcv{
+            color: rgb(228, 19, 19); /*cor do botão de adicionar*/
+        }

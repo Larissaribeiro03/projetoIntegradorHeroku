@@ -1,0 +1,127 @@
+<div class="container-fluid corPerifa">
+  <div class="jumbotron jumbotron-fluid" style="background-color: #FAE977">
+    <div class="container d-flex justify-content-center d-flex align-items-center">
+      <img src="https://images-ext-2.discordapp.net/external/NT0Rpwu5LWsHDjQVsbxT35QavSAxdM49VrUgKdZBwss/https/i.imgur.com/uIX8pO5.png" alt="" height="250" width="300"
+      />
+      <!-- no campo src colocar algo do tipo {{fornecedor.foto}}  -->
+      <h1 class="ml-50">FARMÁCIA DA MÁRCIA</h1>
+      <!-- trocar Nome da loja por algo semelhante a {{fornecedor.nome}} -->
+    </div>
+  </div>
+</div>
+<!--CARDS NOVOS-->
+<div class="row w-100 d-flex justify-content-center ">
+    <div class="flex-wrap col-md-9 d-flex justify-content-center mb-5">
+      <div class="col">
+        <div class="card corFundo" style="width: 100%;" >
+          <img src="../../assets/img/farmacia/fraldaG.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">FRALDA-Tam G</h5>
+            <p class="card-text">Todo conforto</p>
+            <h5 class="card-text">R$ 25,00</h5>
+            <a routerLink="/carrinho" class="card-link fc fa fa-plus-circle fa-3x ml-140" aria-hidden="true"></a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card corFundo" style="width: 100%;" >
+          <img src="../../assets/img/farmacia/estomazil .jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Estomazil</h5>
+            <p class="card-text">Alívio imediato ao mal estar</p>
+            <h5 class="card-text">R$ 1,99</h5>
+            <a routerLink="/carrinho" class="card-link fc fa fa-plus-circle fa-3x ml-140" aria-hidden="true"></a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card corFundo" style="width: 100%;">
+          <img src="../../assets/img/farmacia/lencinhoUmed.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Lencinho Umed.</h5>
+            <p class="card-text">Para higienizar da melhor forma</p>
+            <h5 class="card-text">R$ 8,99</h5>
+            <a routerLink="/carrinho" class="card-link fc fa fa-plus-circle fa-3x ml-140" aria-hidden="true"></a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card corFundo" style="width: 100%;" >
+          <img src="../../assets/img/farmacia/cimegripe.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">CIMEGRIPE-24</h5>
+            <p class="card-text">Indicado para gripes e resfriados</p>
+            <h5 class="card-text">R$ 10,99</h5>
+            <a routerLink="/carrinho" class="card-link fc fa fa-plus-circle fa-3x ml-140" aria-hidden="true"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex-wrap col-md-9 d-flex justify-content-center mb-5">
+      <div class="col">
+        <div class="card corFundo" style="width: 100%;" >
+          <img src="../../assets/img/farmacia/resfenol.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">RESFENOL</h5>
+            <p class="card-text">Indicado para gripes e resfriados</p>
+            <h5 class="card-text">R$ 9,99</h5>
+            <a href="#" class="card-link fc fa fa-plus-circle fa-3x ml-140" aria-hidden="true"></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card corFundo" style="width: 100%;" >
+          <img src="../../assets/img/farmacia/absorvente.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">ABSORVENTE</h5>
+            <p class="card-text">Conforto diário</p>
+            <h5 class="card-text">R$ 3,99</h5>
+            <a routerLink="/carrinho" class="card-link fc fa fa-plus-circle fa-3x ml-140" aria-hidden="true"></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card corFundo" style="width: 100%;" >
+          <img src="../../assets/img/farmacia/luftagel.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">LUFTAGEL</h5>
+            <p class="card-text">Alívio imediato</p>
+            <h5 class="card-text">R$ 6,99</h5>
+            <a routerLink="/carrinho" class="card-link fc fa fa-plus-circle fa-3x ml-140" aria-hidden="true"></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card corFundo" style="width: 100%;" >
+          <img src="../../assets/img/farmacia/neosaldina.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">NEOSALDINA</h5>
+            <p class="card-text">Alívio imediato</p>
+            <h5 class="card-text">R$ 5,99</h5>
+            <a routerLink="/carrinho" class="card-link fc fa fa-plus-circle fa-3x ml-140" aria-hidden="true"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+
+
+
+    <!--
+    <div class="card corFundo mr-2 mb-5" style="width: 20%;" *ngFor='let produto of categoria.produto' >
+      <img src="{{produto.imagem_produto}}" class="card-img-top" alt="{{produto.nome}}">
+      <div class="card-body">
+        <h5 class="card-title">{{produto.nome}}</h5>
+        <h5 class="card-text">R$: {{produto.precoUnitario}}</h5>
+        <a routerLink="/carrinho" class="card-link fc fa fa-plus-circle fa-3x ml-140" aria-hidden="true"></a>
+      </div>-->
+
+
+
+
+

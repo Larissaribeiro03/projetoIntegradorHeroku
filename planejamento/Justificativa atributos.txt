@@ -1,0 +1,53 @@
+Docs do projeto: https://docs.google.com/document/d/1l0Qr4FijX-KEO1e9dr2Mjscpix1EuYUT2YW29r4jBxA/edit?usp=sharing 
+
+Disclaimer: nós criamos categorias de loja separadamente pois a idéia é ser um marketplace altamente comunitário.
+
+INTEGRANTES: Iuri, Larissa, Dayane, Everson, Ricardo
+
+tb_produto{
+	id_produto: identifica o produto
+	nome: nomeia o produto
+	preco_unitario: precifica o produto
+	id_categoria: identifica a categoria do produto
+}
+
+tb_cliente
+{
+	id_cliente: identifica o cliente
+	nome: nome do cliente
+	genero: pra usar o pronome adequado
+	email: email/login para cadastro do cliente
+	senha: cadastro do cliente
+	localização: mapear a localização do cliente pra mostrar as lojas nas redondezas
+}
+
+tb_carrinho
+{
+	id_carrinho:identifica o carrinho
+	id_produto: identifica o produto
+	id_cliente: identifica o cliente
+	valor_total: valor da compra atual
+	forma_pagamento: formas de pagamento possíveis
+}
+
+tb_loja
+{
+	id_loja: identifica a loja
+	nome: nome da loja
+	localizacao: mapear a localização da loja pra mostrar os cliente nas redondezas
+	email: email/login para cadastro da loja
+	senha: cadastro da loja
+}
+
+tb_categoriaProduto
+{
+	id_categoria: categoriza os produtos
+	nome: nome da categoria
+}
+
+tb_categoriaLoja
+{
+	id_categoriaLoja: identifica a categoria de cada loja
+	id_loja: identifica a loja
+	segmento: como as lojas parceiras seriam de vários segmentos, aqui está categorizada as lojas, diferenciando restaurantes de pet shops por exemplo
+}

@@ -1,0 +1,25 @@
+#img-bgLogin{
+    background-image: url('https://i.imgur.com/ICIEWiW.jpg');
+
+    min-height: 850px;
+
+    background-image: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pd-10{
+    padding: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 20px;
+
+}
+.fs-10{
+    font-size: 10pt;
+}
+
+.fs-50{
+    font-size: 40pt;
+}
+

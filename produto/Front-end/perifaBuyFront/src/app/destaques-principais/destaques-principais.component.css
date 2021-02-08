@@ -1,0 +1,10 @@
+img{
+    width: 383px;
+    height: 180px;
+    cursor: pointer;
+}
+.wh-650{
+    max-width:600px;
+    min-width: 200px;
+    max-height: 100px;
+}

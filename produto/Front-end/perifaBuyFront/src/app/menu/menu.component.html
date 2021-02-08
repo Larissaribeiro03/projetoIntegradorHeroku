@@ -1,0 +1,92 @@
+<div class="container-fluid">
+  <div class="row corPerifa">
+    <div class="col-md-6">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" routerLink="/inicio"
+          ><img
+            src="https://i.imgur.com/8pnES2d.png"
+            alt="Imagem logo"
+            width="50px"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#conteudoNavbarSuportado"
+          aria-controls="conteudoNavbarSuportado"
+          aria-expanded="false"
+          aria-label="Alterna navegação"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+                  <!--Barra de pesquisa-->
+          <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-10">
+                    <input class="form-control" type="text" name="busca" id="busca" placeholder="Pesquisar produto">
+                </div>
+                <div class="col-md-1 px-0">
+                    <a>
+                        <img src="https://i.imgur.com/1SPFRwa.png" width="50" height="50" alt="lupa">
+                    </a>
+                </div>
+            </div>
+          </div>
+          <!--fim da Barra de pesquisa-->
+      </nav>
+    </div>
+    <div class="col-md-6">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNavDropdown"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="navbar-brand" routerLink="/carrinho"
+                ><img
+                  src="https://i.pinimg.com/originals/12/b0/7d/12b07d7d7dbde76a3a687552d50d397f.png"
+                  alt="Imagem carrinho"
+                  width="32px"
+              /></a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                <img
+                  src="https://i.pinimg.com/originals/0c/3b/3a/0c3b3adb1a7530892e55ef36d3be6cb8.png"
+                  alt="Imagem usuario"
+                  width="30px"
+                />
+              </a>
+              <div
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <a class="dropdown-item" routerLink="/entrar">Entre</a>
+                <a class="dropdown-item" routerLink="/cadastro-usuario"
+                  >Cadastre-se</a
+                >
+                <a class="dropdown-item" routerLink="/cadastro-produto">Cadastrar Produto</a>
+              </div>
+            </li>
+            <li class="nav-item" *ngIf="mostrarNome()">
+              <a class="nav-link">{{nome}}</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/contato">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,19 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.jumbotron {
+    background-color: transparent !important;
+}
+
+.corPerifa{
+  background-color:  #FAE977;
+}
+
+.fs-20
+{
+  font-size: 100px;
+}
+
+
+
